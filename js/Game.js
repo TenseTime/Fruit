@@ -55,11 +55,11 @@ class Game{
             players[index -1].x = x;
             players[index - 1].y = y;
 
-            if(index===player.index){
+            //if(index===player.index){
                 fill("black");
                 textSize(25);
                 text(allPlayers[plr].name, x-25,y+25);
-            }
+           // }
             textSize(25);
             fill("blue");
             text("Player 1:"+allPlayers.player1.score, 50,50);
